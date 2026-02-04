@@ -7,99 +7,74 @@
     <link rel="stylesheet" href="pdf-style.css">
 </head>
 <body>
-    <header>
-        <h1>Bank Soal PDF</h1>
-        <nav>
-            <a href="index.html">Beranda</a>
-            <a href="bank.html">Soal</a>
-            <a href="#">Upload PDF</a>
-            <a href="tentang.html">Tentang</a>
-        </nav>
-    </header>
 
-    <main>
-        <section class="intro">
-            <h2>Selamat datang di Bank Soal PDF</h2>
-            <p>Klik tombol di bawah untuk membuka PDF soal.</p>
-        </section>
+<header>
+    <h1>Bank Soal PDF</h1>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="bank.html">Soal</a>
+        <a href="#">Upload PDF</a>
+        <a href="tentang.html">Tentang</a>
+    </nav>
+</header>
 
-        <section class="pdf-list">
+<main>
+    <section class="intro">
+        <h2>Selamat datang di Bank Soal PDF</h2>
+        <p>Ketik untuk mencari soal atau kategori</p>
+    </section>
 
-            <div class="category-card">
-                <h3>Penalaran Matematika</h3>
-                <div class="buttons">
-                    <a href="soal/PM.pdf" target="_blank" class="pdf-btn">PM 1</a>
-                    <a href="soal/PK PM MIPY #2 2026.docx.pdf" target="_blank" class="pdf-btn">PM 2</a>
-                </div>
-            </div>
+    <!-- SEARCH -->
+    <section class="search-box">
+        <input type="text" id="searchInput" placeholder="Cari PM, PK, TO, Neutron, Literasi...">
+    </section>
 
-            <div class="category-card">
-                <h3>Penalaran Kuantitatif</h3>
-                <div class="buttons">
-                    <a href="soal/PK.pdf" target="_blank" class="pdf-btn">PK 1</a>
-                    <a href="pdf/fisika2.pdf" target="_blank" class="pdf-btn">PK 2</a>
-                </div>
-            </div>
-            <div class="category-card">
-                <h3>Penalaran Umum</h3>
-                <div class="buttons">
-                    <a href="soal/PU.pdf" target="_blank" class="pdf-btn">PU 1</a>
-                    <a href="pdf/fisika2.pdf" target="_blank" class="pdf-btn">PU 2</a>
-                </div>
+    <section class="pdf-list">
 
+        <div class="category-card">
+            <h3>Penalaran Matematika</h3>
+            <div class="buttons">
+                <a href="soal/PM.pdf" target="_blank" class="pdf-btn">PM 1</a>
+                <a href="soal/PK PM MIPY #2 2026.docx.pdf" target="_blank" class="pdf-btn">PM 2</a>
             </div>
-            <div class="category-card">
-                <h3>Literasi Bahasa Indonesia</h3>
-                <div class="buttons">
-                    <a href="soal/LBI.pdf" target="_blank" class="pdf-btn">LBI 1</a>
-                    <a href="pdf/fisika2.pdf" target="_blank" class="pdf-btn">LBI 2</a>
-                </div>
-            </div>
+        </div>
 
-            <div class="category-card">
-                <h3>Literasi Bahasa Inggris</h3>
-                <div class="buttons">
-                    <a href="soal/LBE.pdf" target="_blank" class="pdf-btn">LBE 1</a>
-                    <a href="pdf/kimia2.pdf" target="_blank" class="pdf-btn">LBE 2 2</a>
-                </div>
+        <div class="category-card">
+            <h3>Penalaran Kuantitatif</h3>
+            <div class="buttons">
+                <a href="soal/PK.pdf" target="_blank" class="pdf-btn">PK 1</a>
+                <a href="#" class="pdf-btn">PK 2</a>
             </div>
-            <div class="category-card">
-                <h3>Pengetahuan dan penalaran umum</h3>
-                <div class="buttons">
-                    <a href="soal/PPU.pdf" target="_blank" class="pdf-btn">PPU 1</a>
-                    <a href="pdf/fisika2.pdf" target="_blank" class="pdf-btn">PPU 2</a>
-                </div>
-            </div>
-            <div class="category-card">
-                <h3>Pengetahuan Bacaan dan Tulisan</h3>
-                <div class="buttons">
-                    <a href="soal/PBM.pdf" target="_blank" class="pdf-btn">PBM 1</a>
-                    <a href="pdf/fisika2.pdf" target="_blank" class="pdf-btn">PBM 2</a>
-                </div>
-            </div>
-            <div class="category-card">
-                <h3>TO</h3>
-                <div class="buttons">
-                    <a href="soal/TO RG REG 04.pdf" target="_blank" class="pdf-btn">Ruang 
-                        guru 4
-                    </a>
-                    <a href="soal/DV124_TS IV_SBMPTN TPS .pdf" target="_blank" class="pdf-btn">Neutron 1</a>
-                    <a href="soal/DV121_TS I_SBMPTN TPS .pdf" target="_blank" class="pdf-btn">Neutron 2
-                    </a>
-                    <a href="soal/DV122_TS II_SBMPTN TPS .pdf" target="_blank" class="pdf-btn">Neutron 3
-                    </a>
-                     <a href="soal/ilovepdf_merged.pdf" target="_blank" class="pdf-btn">Pahamify 1
-                    </a>
-                     <a href="soal/ilovepdf_merged-2.pdf" target="_blank" class="pdf-btn">pahamify 2
-                    </a>
+        </div>
 
-                </div>
+        <div class="category-card">
+            <h3>TO</h3>
+            <div class="buttons">
+                <a href="soal/DV124_TS IV_SBMPTN TPS .pdf" target="_blank" class="pdf-btn">Neutron 1</a>
+                <a href="soal/ilovepdf_merged.pdf" target="_blank" class="pdf-btn">Pahamify 1</a>
             </div>
-        </section>
-    </main>
+        </div>
 
-    <footer>
-        <p>&copy; 2026 Bank Soal PDF. All Rights Reserved.</p>
-    </footer>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Bank Soal PDF. All Rights Reserved.</p>
+</footer>
+
+<!-- JAVASCRIPT INLINE -->
+<script>
+document.getElementById("searchInput").addEventListener("keyup", function () {
+    const keyword = this.value.toLowerCase();
+    const cards = document.querySelectorAll(".category-card");
+
+    cards.forEach(card => {
+        card.style.display = card.innerText.toLowerCase().includes(keyword)
+            ? "block"
+            : "none";
+    });
+});
+</script>
+
 </body>
 </html>
